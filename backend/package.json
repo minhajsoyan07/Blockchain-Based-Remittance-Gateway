@@ -1,0 +1,21 @@
+{
+    "name": "remittance-pay-backend",
+    "version": "1.0.0",
+    "description": "Smart contracts for RemittancePay",
+    "main": "index.js",
+    "scripts": {
+        "test": "hardhat test",
+        "compile": "hardhat compile",
+        "deploy": "hardhat run scripts/deploy.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+        "hardhat": "^2.19.0"
+    },
+    "dependencies": {
+        "dotenv": "^16.3.1"
+    }
+}
